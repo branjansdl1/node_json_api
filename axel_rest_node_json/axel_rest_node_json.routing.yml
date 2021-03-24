@@ -1,0 +1,8 @@
+axel_rest_node_json.node_data_json:
+  path: '/page_json/{apikey}/{nid}'
+  defaults:
+    _controller: 'Drupal\axel_rest_node_json\Controller\NodeDataController::index'
+    _title: 'Page Json Data'
+  methods:  [GET]
+  requirements:
+    _access: 'TRUE'
